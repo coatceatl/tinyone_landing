@@ -112,6 +112,15 @@ ul, li {
   line-height: 20px;
   color: #898989; }
 
+.subcrible {
+  background-color: #010101; }
+
+.subcrible__title {
+  color: #fcdb00; }
+
+.subcrible__text {
+  color: #898989; }
+
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
