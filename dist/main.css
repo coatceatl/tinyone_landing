@@ -5,6 +5,21 @@ ul, li {
   padding: 0;
   margin: 0; }
 
+.title {
+  text-align: center; }
+
+.title__main {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 15px; }
+
+.title__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 730px; }
+
 .header {
   width: 100vw;
   height: 100vh;
@@ -67,22 +82,13 @@ ul, li {
   padding-bottom: 164px; }
 
 .features__heading {
-  text-align: center;
   margin-bottom: 90px; }
 
 .features__title {
-  color: #010101;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 15px; }
+  color: #010101; }
 
 .features__text {
-  color: #313841;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 730px; }
+  color: #313841; }
 
 .features-content {
   margin-bottom: 84px; }
