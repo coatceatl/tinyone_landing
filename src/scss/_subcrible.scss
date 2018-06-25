@@ -7,3 +7,35 @@
 .subcrible__text {
   color: #898989;
 }
+.form {
+  text-align: center;
+}
+.form__input {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #fff;
+  color: #898989;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 580px;
+  padding: 16px 0;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 24px;
+  outline: none;
+}
+.form__btn {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #fcdb00;
+  color: #010101;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 126px;
+  padding: 14px 0;
+  border: 2px solid #010101;
+  border-radius: 5px;
+  margin-right: 21px;
+  cursor: pointer;
+}
