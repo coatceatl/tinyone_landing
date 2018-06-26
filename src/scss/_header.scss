@@ -8,6 +8,29 @@
 .menu {
   margin-top: 10px;
 }
+
+.menu-mobile {
+
+  @media(max-width: 992px) {
+    display: none;
+
+    &__toggle {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: #fa7d00;
+      z-index: 100;
+    }
+  }
+}
 .menu__item {
   margin: 0 57px;
   list-style: none;
@@ -23,6 +46,7 @@
     position: absolute;
     right: 0;
     margin-top: 15px;
+    cursor: pointer;
   }
 }
 .row-content {
@@ -64,12 +88,5 @@
 .ipad {
   display: block;
   margin: 0 auto;
-}
-.menu-mobile {
-  display: flex;
-
-  @media (max-width: 992px) {
-    display: none;
-  }
 }
 

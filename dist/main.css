@@ -30,6 +30,24 @@ ul, li {
 .menu {
   margin-top: 10px; }
 
+@media (max-width: 992px) {
+  .menu-mobile {
+    display: none; }
+    .menu-mobile__toggle {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: #fa7d00;
+      z-index: 100; } }
+
 .menu__item {
   margin: 0 57px;
   list-style: none;
@@ -44,7 +62,8 @@ ul, li {
       display: flex;
       position: absolute;
       right: 0;
-      margin-top: 15px; } }
+      margin-top: 15px;
+      cursor: pointer; } }
 
 .row-content {
   padding-top: 66px;
@@ -85,12 +104,6 @@ ul, li {
 .ipad {
   display: block;
   margin: 0 auto; }
-
-.menu-mobile {
-  display: flex; }
-  @media (max-width: 992px) {
-    .menu-mobile {
-      display: none; } }
 
 .features {
   padding-top: 118px;
