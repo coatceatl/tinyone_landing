@@ -94,7 +94,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("/*\n$(document).ready(function() {\n  $('.hamburger').on('click', function(e) {\n    e.preventDefault();\n    $(this).toggleClass('active');\n    $('#header').toggleClass('menu__open');\n  });\n});\n*/\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
