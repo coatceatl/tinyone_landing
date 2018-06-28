@@ -77,6 +77,21 @@
     margin: auto;
   }
 }
+.active {
+  @media (max-width: 992px) {
+    .hamburger__icon {
+      opacity: 0;
+    }
+  }
+  &:after {
+    transform: rotate(-45deg);
+    top: 10px;
+  }
+  &:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+}
 .row-content {
   padding-top: 66px;
   padding-bottom: 107px;

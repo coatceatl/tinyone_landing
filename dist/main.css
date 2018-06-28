@@ -88,6 +88,18 @@ ul, li {
     width: 24px;
     margin: auto; } }
 
+@media (max-width: 992px) {
+  .active .hamburger__icon {
+    opacity: 0; } }
+
+.active:after {
+  transform: rotate(-45deg);
+  top: 10px; }
+
+.active:before {
+  transform: rotate(45deg);
+  top: 9px; }
+
 .row-content {
   padding-top: 66px;
   padding-bottom: 107px; }
