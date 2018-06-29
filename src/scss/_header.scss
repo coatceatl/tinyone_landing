@@ -7,6 +7,15 @@
 }
 .menu {
   margin-top: 10px;
+
+  @media(max-width: 992px) {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around !important;
+    align-items: center;
+    position: absolute;
+    left: 25%;
+  }
 }
 
 .desktop-menu {
@@ -21,16 +30,13 @@
 
   @media(max-width: 992px) {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+    position: fixed !important;
     top: 0;
     bottom: 0;
     left: 60%;
     right: 0;
     height: 100vh;
-    width: 100vw;
+    width: 40% !important;
     background-color: #fa7d00;
     z-index: 100;
   }
