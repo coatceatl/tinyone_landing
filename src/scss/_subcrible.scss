@@ -40,6 +40,10 @@
   border-radius: 5px;
   cursor: pointer;
 
+  @media (max-width: 922px) {
+    width: 580px;
+}
+
   &:focus {
     outline: none;
   }
