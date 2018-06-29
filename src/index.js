@@ -5,6 +5,6 @@ $(document).ready(function() {
     console.log('start');
     e.preventDefault();
     $(this).toggleClass('active');
-    $('#menu').toggleClass('menu-mobile__toggle');
+    $('#mobile').toggleClass('menu-mobile__toggle');
   });
 });
