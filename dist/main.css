@@ -89,7 +89,7 @@ ul, li {
         top: 10px;
         transform-origin: 50% 50%; }
       .hamburger:after {
-        top: calc(100% - 15px); } }
+        top: calc(100% - 12px); } }
 
 @media (max-width: 992px) {
   .hamburger__icon {
@@ -140,7 +140,8 @@ ul, li {
   color: #313841; }
   @media (max-width: 992px) {
     .content__subtitle {
-      font-size: 28px; } }
+      font-size: 28px;
+      margin: 55px 0; } }
 
 .content__text {
   margin-bottom: 42px;
