@@ -35,9 +35,10 @@
     left: 60%;
     right: 0;
     height: 100vh;
-    width: 40% !important;
+    width: 100% !important;
     background-color: #fa7d00;
     z-index: 100;
+    opacity: 0.9;
   }
 }
 .menu__item {
@@ -48,7 +49,7 @@
   line-height: 20px;
 
   @media(max-width: 992px) {
-    font-size: 40px;
+    font-size: 125px;
   }
 }
 .hamburger {
@@ -122,10 +123,9 @@
   margin-bottom: 22px;
   font-size: 32px;
   font-weight: 700;
-  line-height: 18px;
 
   @media(max-width: 992px) {
-    font-size: 50px;
+    font-size: 110px;
   }
 }
 .content__subtitle {
