@@ -90,7 +90,7 @@ ul, li {
         top: 10px;
         transform-origin: 50% 50%; }
       .hamburger:after {
-        top: calc(100% - 12px); } }
+        top: calc(100% - 11px); } }
 
 @media (max-width: 992px) {
   .hamburger__icon {
@@ -124,6 +124,9 @@ ul, li {
 .content {
   padding-top: 73px;
   padding-bottom: 123px; }
+  @media (max-width: 992px) {
+    .content {
+      padding: 10px 0; } }
 
 .content__title {
   margin-bottom: 22px;
