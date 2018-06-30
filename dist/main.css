@@ -33,7 +33,7 @@ ul, li {
     .menu {
       flex-direction: column;
       height: 100vh;
-      justify-content: space-around !important;
+      justify-content: space-evenly !important;
       align-items: center;
       position: absolute; } }
 
@@ -55,7 +55,7 @@ ul, li {
     width: 100% !important;
     background-color: #fa7d00;
     z-index: 100;
-    opacity: 0.9; } }
+    opacity: 0.95; } }
 
 .menu__item {
   margin: 0 57px;
@@ -65,7 +65,7 @@ ul, li {
   line-height: 20px; }
   @media (max-width: 992px) {
     .menu__item {
-      font-size: 125px; } }
+      font-size: 100px; } }
 
 .hamburger {
   display: none; }
